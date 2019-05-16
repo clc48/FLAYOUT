@@ -57,24 +57,7 @@ body {
     background-size: auto;
 }
 
-#hero {
-    top: 100px;
-    left: 200px;
-    height: 305px;
-    width: 320px;
-    background-color: gray;
 
-
-}
-#hero h1{
-    margin: 0px;
-
-}
-#heroText {
-    position: relative;
-    z-index: 2;
-
-}
 ul {
     list-style-type: none;
     margin: 0;

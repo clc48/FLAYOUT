@@ -1,143 +1,94 @@
 body {
-    background-color: darkblue;
+    background-color: white;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0;
+    background-color: lightblue;
+    fill: lightblue;
+}
+body {
+    background-color: lightblue;
+}
+.header {
+    text-align: Center;
+    background-color: black;
+    color: #fff;
+    padding: 0.25rem;
+}
+
+.container p{
+    margin: 0 3rem;
+    z-index: 2;
 }
 
 
-
-.fullborder {
-    border: black solid thin;
-    background-color: lawngreen;
-}
-
-#wrapper {
-    width: 960px;
-    height: 1553px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#content {
-    width: 541px;
-    padding-right: 24px;
-    padding-left: 24px;
-    float: left;
-    font-size: 16px;
-    line-height: 27px;
-}
-
-#content h1 {
-    font-size: 42px;
-    line-height: 65px;
-    color: darkblue;
-}
-
-#content h2 {
-    font-size: 33px;
-    line-height: 52px;
-}
-
-#content h3 {
-    font-size: 26px;
-    line-height: 41px;
-}
-
-#content h4 {
-    font-size: 20px;
-    line-height: 33px;
-}
-
-#content h5 {
-    font-size: 16px;
-    line-height: 27px;
-}
-
-#content h6 {
-    font-size: 13px;
-    line-height: 23px;
-}
-
-#sidebar {
-    width: 367px;
-    float: left;
-}
-
-#footer {
-    clear: both;
-}
-
-#header{
-    border: lawngreen;
-    background-color: aqua;
-    width: 960px;
-    font-size: 30px;
-
-}
-
-#header li {
-    display: inline;
-}
-
-#header ul {
-    margin-right: 31px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    float: right;
-
-}
-
-#banner {
-    height: 363px;
-    background-image: url("../images/happy-people.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 363px;
-
-}
-
-#hero  {
-    height: 365px;
-    width: 320px;
-    position: relative;
-    display: block;
-    z-index: 1;
-    top: 0;
-    right: 0;
+.footer {
+    position: absolute;
+    padding: 0 0.5rem;
+    background-color: black;
+    color: #fff;
+    width: 100%;
     bottom: 0;
-    left: 0;
-    background-color: #563d7c;
-    padding: 0px;
-    filter: alpha(opacity=40);
-    opacity: 0.40;
 }
 
+.footer :nth-child(2) {
+    text-align: right;
+}
 
-#heroText   {
+.menu {
+    float: right;
+}
+.subtitle{
+    text-align: center;
+}
+.banner {
+    background-image: url("../Images/happy_people.jpg");
+    background-repeat:  no-repeat;
+    background-size: auto;
+}
 
+#hero {
+    top: 100px;
+    left: 200px;
+    height: 305px;
+    width: 320px;
+    background-color: gray;
+
+
+}
+#hero h1{
+    margin: 0px;
+
+}
+#heroText {
     position: relative;
     z-index: 2;
-    background: rgba(255,255,255,0.8);
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
 
-
-.box {
-    width: 266px;
-    padding-right: 18px;
-    padding-left: 18px;
-    padding-top: 18px;
-    height: 215px;
+li {
     float: left;
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    margin-top: 18px;
-    margin-right: 18px;
+    background-color: black;
 }
 
-.boxTitle {
-    border-bottom: 1px solid black;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
 }
-.boxContent {
-    padding-top: 9px;
-}
+
+

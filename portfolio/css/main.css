@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: lightblue;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     margin: 0;
@@ -7,14 +7,10 @@ body {
 
 .wrapper {
 
-    background-color: lightblue;
-    fill: lightblue;
+
     z-index: 2;
 }
-body {
-    background-color: lightblue;
 
-}
 #header {
     text-align: Center;
     background-color: black;
@@ -36,7 +32,7 @@ body {
 
 
 
-.footer {
+/*.footer {
     position: absolute;
     padding: 0 0.5rem;
     background-color: black;
@@ -48,7 +44,7 @@ body {
 .footer :nth-child(2) {
     text-align: right;
 }
-
+*/
 .menu {
     float: right;
 }
@@ -99,6 +95,17 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     background-color: black;
+}
+.fullborder {
+    border: black solid thin;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.iframe2{
+    text-align: center;
 }
 
 

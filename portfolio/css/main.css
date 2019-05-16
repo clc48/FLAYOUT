@@ -6,13 +6,14 @@ body {
 }
 
 .wrapper {
-    margin: 0;
+
     background-color: lightblue;
     fill: lightblue;
     z-index: 2;
 }
 body {
     background-color: lightblue;
+
 }
 #header {
     text-align: Center;
@@ -22,12 +23,13 @@ body {
 }
 
 #container p{
+
     margin: 0 3rem;
     z-index: 2;
     font-size: 20px;
 }
 #container p1{
-
+    line-height: 27px;
     font-size: 40px;
 
 }
